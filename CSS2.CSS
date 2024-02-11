@@ -11,7 +11,7 @@ body {
   .falling-text {
     font-size: 63px;
     text-align: center;
-    animation: fall 5s infinite;
+    animation: fall 8s infinite;
   }
   
   @keyframes fall {
