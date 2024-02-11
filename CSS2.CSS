@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .falling-text {
+    font-size: 63px;
+    text-align: center;
+    animation: fall 5s infinite;
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-100vh); /* Start letters offscreen at the top */
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0); /* Settle letters at the bottom */
+      opacity: 1;
+    }
+  }
+  
+  .letter {
+    display: inline-block; /* Allow proper spacing between letters */
+    animation: letter-bounce 5s ease-in-out forwards; /* Stagger animation */
+  }
+  
+  @keyframes letter-bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  
