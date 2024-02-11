@@ -1,0 +1,23 @@
+#movingButton {
+    position: unset; /* Enable movement using 'right' and 'top' */
+    cursor: pointer; /* Indicate clickable element */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove default border */
+    background-color: #c23030; /* Button background color */
+    color: #fff; /* Button text color */
+    transition: all 0.2s all; /* Transition properties */
+  }
+  
+  #movingButton:hover {
+    transform: translate(-435px, -400px); /* Move on hover (adjust values as desired) */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow on hover */
+  }
+  #Button {
+    padding: 7px 12px;
+    background-color: #0ca911;
+    color: #fff;
+  }
+  
+body{background-color: rgb(171, 109, 221);}
+body{text-align: center;}
+body{align-content: last baseline;}
