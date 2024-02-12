@@ -42,4 +42,11 @@ body {
     }
   }
   
-  
+  body{height: 100vh;
+    margin: 0;
+    animation: bgcolor 5s infinite}
+    
+    @keyframes bgcolor { 0% { background-color: rgb(224, 39, 39); }
+     25% { background-color: rgb(70, 217, 70); } 50% { background-color: rgb(84, 84, 237); }
+      75% { background-color: rgb(230, 60, 230); } 100% { background-color: rgb(221, 47, 47); }
+    }
