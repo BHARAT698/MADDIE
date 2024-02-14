@@ -9,7 +9,7 @@ body {
   }
   
   .falling-text {
-    font-size: 63px;
+    font-size: 55px;
     text-align: center;
     animation: fall 8s infinite;
   }
